@@ -2,66 +2,48 @@
 <html lang="en">
   <head lang="en">
     <meta charset="utf-8" />
-    <meta name=""view-port" content="width=device-width , initial-scale=1 ,
+    <meta name="view-port" content="width=device-width , initial-scale=1 ,
     viewport-fit= cover">
+    <link rel="stylesheet" href="./styles.css">
     <title>Apple</title>
-    <!--ADD CSS HERE!-->
   </head>
   <body>
-    <style>
-      body {
-        background: rgb(44, 44, 99);
-      }
-    </style>
-    <nav>
-      <style>
-        nav {
-          background: rgb(122, 80, 104);
-          border-radius: 300px;
-        }
-      </style>
-      <center>
+    <nav class="navigation">
+    <div class="navlogo">
         <a href="https://www.apple.com/">
-          <style>
-            img {
-    border-radius: 30px;
-}
-          </style>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/625px-Apple_logo_black.svg.png"
             alt="Apple Logo"
             height="30px"
             width="30px"
           />
-        </a>
-        <p>
-          <style>
-               a {
-                color: rgb(164, 198, 191);
-               }
-        </style>
-        <a href="https://www.apple.com/us/shop/goto/store">Store</a>
-        <a href="https://www.apple.com/mac/">Mac</a>
-        <a href="https://www.apple.com/ipad/">iPad</a>
-        <a href="https://www.apple.com/iphone/">iPhone</a>
-        <a href="https://www.apple.com/watch/">Watch</a>
-        <a href="https://www.apple.com/airpods/">AirPods</a>
-        <a href="https://www.apple.com/tv-home/">TV & Home</a>
-        <a href="https://www.apple.com/services/">Only on Apple</a>
-        <a href="https://www.apple.com/us/shop/goto/buy_accessories"
-          >Accessories</a
-        >
-        <a href="https://support.apple.com/">Support</a>
-        <a href="https://www.apple.com/us/search">
-        </p>
+        </a></div>
+        <div class="navbar"> 
+          <ul id="navbar">
+        <li><a href="https://www.apple.com/us/shop/goto/store"><span>Store</span></a></li>
+        <li><a href="https://www.apple.com/mac/"><span>Mac</span></a></li>
+        <li><a href="https://www.apple.com/ipad/"><span>iPad</span></a></li>
+        <li><a href="https://www.apple.com/iphone/"><span>iPhone</span></a></li>
+        <li><a href="https://www.apple.com/watch/"><span>Watch</span></a></li>
+        <li><a href="https://www.apple.com/airpods/"><span>AirPods</span></a></li>
+        <li><a href="https://www.apple.com/tv-home/"><span>TV & Home</span></a></li>
+        <li><a href="https://www.apple.com/services/"><span>Only on Apple</span></a></li>
+        <li><a href="https://www.apple.com/us/shop/goto/buy_accessories">
+          ><span>Accessories</span></a></li>
+        <li><a href="https://support.apple.com/"><span>Support</span></a></li>
+        <li><a href="https://www.apple.com/us/search"></a></li>
+        </ul>
+        </div>
+        <div class="navsearch">
           <img
             src="https://www.pngitem.com/pimgs/m/11-110158_magnifier-glass-find-search-loop-search-loop-icon.png"
             alt="Search Loop
             height="
             20px
             width="20px"
-          />
-        </a>
+          /></div>
+        
+        <div class="navcart">
         <a href="https://www.apple.com/us/shop/goto/bag">
           <img
             src="https://i.pinimg.com/736x/f7/1f/56/f71f56263f5a7eec1fd6ab1d1ac04af4.jpg"
@@ -69,24 +51,15 @@
             height="23px"
             width="23px"
           />
-        </a>
-      </center>
+        </a></div>
     </nav>
+    </div>
     <main>
-      <section>
-        <style>
-          h1 , h2 {
-            font-size: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-style: normal;
-            color: rgb(186, 168, 154);
-            
-          }
-        </style>
-        <div> 
-          <center>
-            <h1>iPhone 14</h1>
-            <h2>Big and bigger</h2>
+      <section class="first-section">
+        <div class="first-page">
+          <div class="title">
+            <h1>iPhone 14</h1></div>
+            <div class="subtitle"><h2>Big and bigger</h2></div>
             <div>
               <p><a href="https://www.apple.com/iphone-14/"> Learn more </a></p>
               <p>
@@ -102,12 +75,10 @@
                   alt="Reload the page to see the image"
               /></a>
             </div>
-          </center>
         </div>
       </section>
-      <section>
+      <section class="second-section">
         <div>
-          <center>
             <hr />
             <div>
               <a href="https://www.apple.com/us/shop/goto/gifts"
@@ -127,20 +98,10 @@
             >
               Shop the gift guide
             </a>
-          </center>
         </div>
       </section>
-      <section>
-        <style>
-          h3 {
-            font-size: 20px;
-            font-family: Georgia, 'Times New Roman', Times, serif; 
-            font-style: italic;
-            color:rgb(250, 204, 168)
-          }
-        </style>
+      <section class="third-section">
         <div>
-          <center>
             <hr />
             <h1>Card</h1>
             <h3>
@@ -170,7 +131,6 @@
                 src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-silver-220907_inline.jpg.large.jpg"
                 alt="Reolad the page to see the image"
             /></a>
-          </center>
         </div>
       </section>
     </main>
