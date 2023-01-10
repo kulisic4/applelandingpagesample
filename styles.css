@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 nav {
     background: rgb(47, 46, 46, 0.97);
