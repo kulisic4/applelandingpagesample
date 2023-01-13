@@ -1,6 +1,9 @@
 * {
     scroll-behavior: smooth;
 }
+#svg {
+    color: #cbcbcc;
+}
 body {
     overflow-x: hidden;
     width: 100vw;
@@ -326,4 +329,33 @@ nav ul li {
     left: 20px;
     font-size: 20px;
     color: #2997ff;
+}
+@media (min-width: 320px) {
+    p {
+        font-size: 30px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 60px;
+    }
+    .learn-more11 {
+        margin-left: -300px;
+        margin-right: -;
+    }
+    .buy {
+        margin-top: -95px;
+        margin-right: 250px;
+        margin-left: -350px;  
+    }
+    .first-section {
+        margin-right: -85px;
+    }
+    .second-section {
+        margin-right: -85px;
+    }
+    .third-section {
+        margin-right: -85px;
+    }
+    .footer {
+        margin-right: -85px;
+    }
 }
