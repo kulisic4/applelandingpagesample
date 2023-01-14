@@ -24,6 +24,7 @@ nav {
     width: 100%;
     height: 48px;
     backdrop-filter: blur;
+    z-index: 1;
 }
 a:hover {
    color: rgb(231, 231, 231);
@@ -42,12 +43,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: rgb(219, 255, 252);
+    margin-right: 75px;
   }
   h2 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: rgb(219, 255, 252);
+    margin-right: 75px;
   }
  h3 {
     font-size: 20px;
@@ -83,7 +86,7 @@ li{
         width: 1450px;
 }
 nav ul li {
-        padding : 0 10px 0 10px;
+    padding : 0 10px 0 10px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 8px;
@@ -152,6 +155,9 @@ nav ul li {
     margin-top: 10px;
     padding-top: 1px;
 }
+div>p>a {
+    margin-right: 150px;
+}
 .learn-more1 {
     text-align: left;
     margin-left: 650px;
@@ -168,7 +174,7 @@ nav ul li {
     text-align: right;
     position: center;
     margin-top: -49px;
-    font-size: 23px;
+    font-size: 23px; 
 }
 .buy11 {
     color: #0077e7;
@@ -184,6 +190,7 @@ nav ul li {
     text-decoration: none;
     font-size: 30px;
     color: #2997ff;
+    margin-right: 75px;
 }
 .iPhone-14 {
     color: black
@@ -195,17 +202,20 @@ nav ul li {
    width: 550px;
    height: 400px;
    margin-bottom: 8px;
+   margin-right: 85px;
 }
 .second-section-image {
     width: 300px;
     height: 300px;
     position: center;
     margin-top: 10px;
+    margin-right: 85px;
 }
 .third-section-image {
     width: 450px;
     height: 350px;
     margin-top: 80px;
+    margin-right: 85px;
 }
 .iPhone-14 {
     padding-top: 50px;
@@ -231,7 +241,10 @@ nav ul li {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .footer {
-    margin: auto;
+    width: 100%;
+    
+    margin-bottom: 20px;
+    margin-left: -50px;
     padding: auto;
     background-color: #cdcdcd;
 }
@@ -282,6 +295,7 @@ nav ul li {
 .watch {
     margin-top: 50px;
     margin-bottom: 0px;
+    margin-right: 80px;
     position: center;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-style: normal;
@@ -289,6 +303,7 @@ nav ul li {
 }
 .series-8 {
     margin-top: 0px;
+    margin-right: 80px;
     position: center;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-style: normal;
@@ -301,6 +316,7 @@ nav ul li {
     font-style: normal;
     font-size: 25px;
     letter-spacing: inherit;
+    margin-right: 75px;
 }
 .apple-logo-third-section {
     height: 40px;
@@ -309,8 +325,7 @@ nav ul li {
     white-space: nowrap;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: -115px;
-
+    margin-left: -160px;
     text-align: center;
     position: absolute;
 }
@@ -330,17 +345,17 @@ nav ul li {
     top: 0px;
     font-size: 30px;
     color: #2997ff;
-    margin-left: 100px;
+    margin-left: 85px;
 }
 .apply-now1-and-learn-more2 {
-    margin-right: 100px;
+    margin-right: 160px;
 }
 @media (min-width: 320px) {
     p {
         font-size: 30px;
         display: inline-block;
-        margin-left: 20px;
-        margin-right: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .learn-more11 {
         margin-left: -300px;
@@ -361,38 +376,146 @@ nav ul li {
         margin-right: -85px;
     }
     .footer {
-        text-align: -85px;
+        margin-left: 40px;
+        background-color: #cdcdcd;
+        display: block;
+        text-align: justify;
     }
 }
 
 @media (min-width: 1440px) {
     p {
         display: inline-block;
-        margin-left: 300px;
-        margin-right: 320px;
+        margin-left: 260px;
+        margin-right: 210px;
     }
 }
 
 @media (min-width: 2560px) {
     p {
         display: inline-block;
-        margin-left: 850px;
-        margin-right: 850px;
+        margin-left: 790px;
+        margin-right: 790px;
     }
 }
 
 @media (max-width: 320px) {
     .apply-now1-and-learn-more2 {
         display: inline-block;
-
     }
 }
 
-@media (max-width: 1040px) {
-    main {
-        
+ @media only screen and (min-width: 320px) {
+    nav ul li {
+        display: inline-block;
+        padding : 0px 10px 0px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -200px;
+    margin-right: 200px;
     }
-}
- @media (max-width: 320px) {
+    .navlogo {
+        display: inline-block;
+        margin-left: 150px;
+    }
+    .navsearch {
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 970px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        nav ul li {
+            display: inline-block;
+            padding : 0px 10px 0px 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: -200px;
+        margin-right: 200px;
+        }
+        .navlogo {
+            display: inline-block;
+            margin-left: 150px;
+        }
+        .navsearch {
+            display: inline-block;
+            margin-right: 30px;
+            margin-left: 970px;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+        nav ul li {
+            padding : 0 10px 0 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+        }
+        .navlogo {
+            display: inline-block;
+            margin-left: 280px;
+            }
+    .nav-logo1 {
+        display: inline-block;
+        white-space: nowrap;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        width: 15px;
+        cursor: pointer;
+        margin-top: 0px;
+        height: 18px;
+    }
+    .navsearch {
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 1200px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    .nav-search1 {
+        height: 20px;
+        width: 20px;
+    }
+    .navcart {
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .nav-cart1 {
+        heigth: 20px;
+        width: 20px;
+    }
+    .searchandcart {
+        margin-top: -5px;
+    }
+    @media only screen and (min-width: 2056px) {
+        nav ul li {
+            padding : 0 10px 0 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 300px;
+    margin-right: -300px;
+        }
+        ul {
+            padding-left: 300px;
+        }
+        .navlogo {
+            display: inline-block;
+            margin-left: 900px;
+        }
+        .navsearch {
+            display: inline-block;
+            margin-right: 30px;
+            margin-left: 1800px;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+    }
+    }
     ./*add whats needed for navigation bar*/
- }
