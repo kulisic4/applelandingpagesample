@@ -29,7 +29,19 @@ nav {
 a:hover {
    color: rgb(231, 231, 231);
 }
-p>a:hover {
+div>p>a:hover {
+    color:#0077e7;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: inherit;
+}
+div>a:hover {
+    color:#0077e7;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: inherit;
+}
+div>.buy:hover {
     color:#0077e7;
     cursor: pointer;
     text-decoration: underline;
@@ -190,7 +202,7 @@ div>p>a {
     text-decoration: none;
     font-size: 30px;
     color: #2997ff;
-    margin-right: 75px;
+    margin-right: 90px;
 }
 .iPhone-14 {
     color: black
@@ -446,6 +458,9 @@ div>p>a {
             margin-top: 3px;
             cursor: pointer;
         }
+        .learn-more1 {
+            margin-left: 680px;
+        }
     }
     @media only screen and (min-width: 1440px) {
         nav ul li {
@@ -494,6 +509,14 @@ div>p>a {
     .searchandcart {
         margin-top: -5px;
     }
+    
+    @media only screen and (min-width: 1536px) {
+        p {
+            padding-right: 65px;
+            
+        }
+    }
+
     @media only screen and (min-width: 2056px) {
         nav ul li {
             padding : 0 10px 0 10px;
@@ -516,6 +539,11 @@ div>p>a {
             margin-top: 3px;
             cursor: pointer;
         }
-    }
+        p {
+            padding-right: 0px;
+        }
+        .learn-more11 {
+            margin-left: -330px;
+        }
     }
     ./*add whats needed for navigation bar*/
