@@ -254,9 +254,8 @@ div>p>a {
 }
 .footer {
     width: 100%;
-    
-    margin-bottom: 20px;
-    margin-left: -50px;
+    /*margin-bottom: 20px;
+    margin-left: -50px;*/
     padding: auto;
     background-color: #cdcdcd;
 }
@@ -395,13 +394,14 @@ div>p>a {
     }
 }
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     p {
         display: inline-block;
         margin-left: 260px;
         margin-right: 210px;
     }
 }
+    
 
 @media (min-width: 2560px) {
     p {
@@ -509,6 +509,7 @@ div>p>a {
     .searchandcart {
         margin-top: -5px;
     }
+}
     
     @media only screen and (min-width: 1536px) {
         p {
