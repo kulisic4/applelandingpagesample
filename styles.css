@@ -172,7 +172,7 @@ div>p>a {
 }
 .learn-more1 {
     text-align: left;
-    margin-left: 650px;
+    margin-left: 600px;
     position: center;
     top: 253px;
     font-size: 23px;
@@ -191,6 +191,7 @@ div>p>a {
 .buy11 {
     color: #0077e7;
     text-decoration: none;
+    margin-right: 150px;
 }
 .apply-now {
     text-decoration: none;
@@ -462,6 +463,7 @@ div>p>a {
             margin-left: 680px;
         }
     }
+    
     @media only screen and (min-width: 1440px) {
         nav ul li {
             padding : 0 10px 0 10px;
@@ -509,12 +511,16 @@ div>p>a {
     .searchandcart {
         margin-top: -5px;
     }
+    p {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
 }
-    
+
     @media only screen and (min-width: 1536px) {
         p {
-            padding-right: 65px;
-            
+            margin-right: 260px;
+            margin-left: 260px;
         }
     }
 
@@ -541,10 +547,8 @@ div>p>a {
             cursor: pointer;
         }
         p {
-            padding-right: 0px;
-        }
-        .learn-more11 {
-            margin-left: -330px;
+           
+            margin-right: 740px;
+            margin-left: 740px;
         }
     }
-    ./*add whats needed for navigation bar*/
